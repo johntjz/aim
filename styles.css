@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#stock-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stock-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.stock-card h2 {
+    margin-top: 0;
+}
+
+.stock-card p {
+    margin: 5px 0;
+}

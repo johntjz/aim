@@ -17,3 +17,15 @@ This project fetches and displays stock prices and their percentage changes usin
 ## Dependencies
 
 - [http-server](https://www.npmjs.com/package/http-server) (if using a simple HTTP server)
+
+## Signal-to-Noise Ratio
+
+The `snr_calculator.py` script computes the signal-to-noise ratio (SNR) for a stock's closing prices. Provide a CSV file that includes a `Close` column of prices.
+
+Run the script with:
+
+```bash
+python snr_calculator.py path/to/your_data.csv
+```
+
+It outputs the SNR of the daily returns calculated from the closing prices.
